@@ -31,11 +31,6 @@
 
 
 /* 2-COLUMN STYLESHEET */
-/* Create two equal columns that floats next to eachother */
-.column {
-    float: left;
-    width: 50%;
-}
 
 /* Right Column */
 .rightcolumn {
@@ -48,7 +43,7 @@
 /* Left Column */
 .leftcolumn {
     float: left;
-    width:
+    width: 75%;
 }
 
 /* Clear floats after the columns */
