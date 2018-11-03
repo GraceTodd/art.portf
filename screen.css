@@ -11,7 +11,7 @@ body {
 
 /* HEADER STYLESHEET */
 .header {
-    background-color: #e6fff7;
+    background-color: white;
     text-align: center;
     padding: 20px;
 }
@@ -51,7 +51,7 @@ body {
 .rightcolumn {
     float: left;
     width: 25%;
-    background-color: #f1f1f1;
+    background-color: #e6fff7;
     padding-left: 20px;
 }
 
@@ -70,7 +70,7 @@ body {
 
 /*Add a card effect for articles */
 .card {
-    background-color: #e6fff7;
+    background-color: white;
     padding: 20px;
     margin-top: 20px;
 }
@@ -80,7 +80,7 @@ body {
 
 /* FOOTER STYLESHEET */
 .footer {
-    background-color: #e6fff7;
+    background-color: white;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
