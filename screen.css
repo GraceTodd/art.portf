@@ -1,3 +1,4 @@
+/* HEADER STYLESHEET */
 .header {
     background-color: #00ffcc
     text-align: center;
@@ -55,6 +56,13 @@
     content: "";
     display: table;
     clear: both;
+}
+
+/*Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 /*Responsive layout for mobile devices - incomplete: */
