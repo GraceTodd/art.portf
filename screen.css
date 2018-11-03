@@ -1,8 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    fonat-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+
 /* HEADER STYLESHEET */
 .header {
     background-color: #00ffcc;
     text-align: center;
     padding: 20px;
+}
+
+.header h1 {
+    font-size: 50px;
 }
 
 
