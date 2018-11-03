@@ -1,3 +1,60 @@
+.header {
+    background-color: #00ffcc
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* NAVBAR STYLESHEET */
+/* The navbar container */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Links - chnage color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* 2-COLUMN STYLESHEET */
+/* Create two equal columns that floats next to eachother */
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Responsive layout for mobile devices - incomplete: */
+
+
+/* FOOTER STYLESHEET */
+.footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* BUTTON STYLESHEET */
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
