@@ -96,7 +96,6 @@ img {
 
 /* BUTTON STYLESHEET */
 .button {
-    background-color: #4CAF50; /* Green */
     border: none;
     color: white;
     padding: 16px 32px;
@@ -109,17 +108,38 @@ img {
     cursor: pointer;
 }
 
+
 .button1 {
     background-color: red;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 30s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
+    animation-name: colorchange;
     animation-duration: 30s;
     animation-iteration-count: 4;
 }
 
+.button2 {
+    background-color: blue;
+    
+    /* For Safari 3.1 to 6.0 */
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-delay: 1s;
+    
+    /* Standard syntax */
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+.button2:hover {
+    width: 300px;
+}
+
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
+@-webkit-keyframes colorchange {
     0%   {background-color: red;}
     25%  {background-color: green;}
     50%  {background-color: blue;}
@@ -128,7 +148,7 @@ img {
 }
 
 /* Standard syntax */
-@keyframes example {
+@keyframes colorchange {
     0%   {background-color: red;}
     25%  {background-color: yellow;}
     50%  {background-color: blue;}
