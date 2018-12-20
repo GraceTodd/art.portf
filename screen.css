@@ -9,7 +9,7 @@ body {
 }
 
 /*IMAGE STYLESHEET */
-.img fltr{
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -149,11 +149,9 @@ body {
 }
 
 /* FILTER STYLESHEET */
-.filterDiv {
-  float: left;
-  background-color: #2196F3;
+.fltr {
   color: #ffffff;
-  width: 100px;
+  width: 100%;
   line-height: 100px;
   text-align: center;
   margin: 2px;
