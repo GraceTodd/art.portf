@@ -17,7 +17,7 @@
     
     <div class="row">
       <div class="leftcolumn">
-          <img class="queen" src="brianmay_1 (3).jpg" alt="brian may">
+          <img class="fltr queen" src="brianmay_1 (3).jpg" alt="brian may">
 
           <img src="freddie_apprvd (2).jpg" alt="freddie mercury" >
 
@@ -29,8 +29,7 @@
             <h2> ABOUT ME </h2>
             <p> My name is Grace Todd, and I am a Computer Science major at OSU Cascades. 
                 I am seventeen years old, and this is where I mainly test my CSS formatting.
-                This is a picture of 
-                <div class="tooltip"> waluigi
+                This is a picture of <div class="tooltip"> waluigi
                   <span class="tooltiptext">Nintendo's best boy</span>
                 </div>
                 because his outfit matches the background color.
@@ -52,7 +51,7 @@
     filterSelection("all")
     function filterSelection(c) {
       var x, i;
-      x = document.getElementsByClassName("img");
+      x = document.getElementsByClassName("fltr");
       if (c == "all") c = "";
       for (i = 0; i < x.length; i++) {
         w3RemoveClass(x[i], "show");
