@@ -17,9 +17,9 @@
     
     <div class="row">
       <div class="leftcolumn">
-          <img src="brianmay_1 (3).jpg" alt="brian may">
+          <img src="brianmay_1 (3).jpg" alt="brian may" class="queen">
 
-          <img src="freddie_apprvd (2).jpg" alt="freddie mercury">
+          <img src="freddie_apprvd (2).jpg" alt="freddie mercury" >
 
           <img src="Zendaya-Met-Gala-Dress-2018.jpg" alt="zendaya">
       </div>
@@ -52,7 +52,7 @@
     filterSelection("all")
     function filterSelection(c) {
       var x, i;
-      x = document.getElementsByClassName("card");
+      x = document.getElementsByClassName("img");
       if (c == "all") c = "";
       for (i = 0; i < x.length; i++) {
         w3RemoveClass(x[i], "show");
