@@ -5,7 +5,7 @@
 body {
     font-family: Verdana;
     padding: 10px;
-    background: #e6fff3;
+    background: #ccffe6;
 }
 
 /*IMAGE STYLESHEET */
@@ -27,7 +27,7 @@ img {
 
 /* HEADER STYLESHEET */
 .header {
-    background-color: #f2f2f2;
+    background-color: #e6fff3;
     text-align: center;
     padding: 20px;
 }
@@ -86,7 +86,7 @@ img {
 
 /*Add a card effect for articles */
 .card {
-    background-color: #f2f2f2;
+    background-color: #e6fff3;
     padding: 20px;
     margin-top: 20px;
 }
@@ -96,7 +96,7 @@ img {
 
 /* FOOTER STYLESHEET */
 .footer {
-    background-color: #f2f2f2;
+    background-color: #e6fff3;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
