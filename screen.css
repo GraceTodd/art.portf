@@ -9,7 +9,7 @@ body {
 }
 
 /*IMAGE STYLESHEET */
-img {
+.img fltr{
     display: block;
     margin-left: auto;
     margin-right: auto;
